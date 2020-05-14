@@ -1,3 +1,75 @@
-baseURL = "http://example.org/"
+baseURL = "https://raditian-hugo.radity.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+theme = "raditian-free-hugo-theme"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "About"
+  URL = "https://www.linkedin.com/in/dominikurban/"
+  weight = 2
+
+  [[menu.header]]
+  name = "Portfolio"
+  URL = "https://portfolio.klickerlebnis.de"
+  weight = 3
+
+  [[menu.header]]
+  name = "Contact"
+  URL = "mailto:hello@klickerlebnis.de"
+  weight = 4
+
+
+  [[menu.footer]]
+  name = "About"
+  URL = "https://www.linkedin.com/in/dominikurban/"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Portfolio"
+  URL = "https://portfolio.klickerlebnis.de"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "mailto:hello@klickerlebnis.de"
+  weight = 4
+
+
+[params]
+
+  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+
+  #googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "Dominik"
+    text2 = "Urban"
+
+  [params.footer]
+      copyright = "© Dominik Urban | Düsseldorf, Germany | 2020"
+  #    [params.footer.radity_logo]
+  #      x = "img/general/design-and-code-radity.png"
+  #      _2x = "img/general/design-and-code-radity@2x.png"
+  #      alt = "Design & Code - Radity"
