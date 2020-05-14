@@ -7,12 +7,12 @@ showcase:
   I am passionate about technology, fascinated about all the tech opportunities nowadays and I love to create things that make a difference."
   image:
     #x: "img/showcase/showcase.png"
-    x: "img/showcase/buehne.png"
+    x: "img/who-am-i/FFFFFF-0@2x.png"
     #_2x: "img/showcase/showcase@2x.png"
-    _2x: "img/showcase/buehne@2x.png"
+    _2x: "img/who-am-i/FFFFFF-0@2x.png"
   imageMobile:
     #x: "img/showcase/showcase-mobile.jpg"
-    x: "img/showcase/buehne-mobile.jpg"
+    x: "img/who-am-i/FFFFFF-0.png"
 
   button:
     icon: "icon-mail-fill"
